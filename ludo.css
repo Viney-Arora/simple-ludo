@@ -1,0 +1,70 @@
+.card
+{
+    height: 100%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.178);
+    
+}
+
+.six
+{
+    animation: rotateImg 0.50s linear 1;
+}
+
+@keyframes rotateImg{
+    0% {
+     transform: rotate(0deg);
+    opacity: 0;
+
+    }
+   100% {
+    transform: rotate(359deg);
+   }
+}
+
+body
+{
+    
+    /* background-color: #76453B; */
+    /* background: linear-gradient(90deg,#161A30,#31304D,#B6BBC4) ; */
+    /* background: linear-gradient(90deg ,#163020,#739072,#86A789) ; */
+    background: linear-gradient(90deg ,#092635,#1B4242,#5C8374) ;
+    font-family: sans-serif;
+    /* background: linear-gradient(90deg ,#040D12,#5C8374,#183D3D) 7; */
+    /* background: linear-gradient(90deg ,#967E76,#D7C0AE,#EEE3CB); */
+
+
+}
+
+
+.hidden
+{
+    display: none;
+}
+
+.shadow1
+{
+    box-shadow: 0 0 20px white;
+
+}
+.dicescore
+{
+    font-size: 7rem;
+   
+}
+
+.rotate{
+  
+    rotate: 360deg;
+}
+
+.player1Score
+{
+    font-size: 7rem;
+
+}
+.player2Score
+{
+    font-size: 7rem;
+
+}

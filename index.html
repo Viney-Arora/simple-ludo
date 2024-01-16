@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   
+     <link rel="stylesheet" href="ludo.css">
+    <title>Ludo </title>
+</head>
+
+<body>
+    <div class="container">
+       
+
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+            <h1 class="display-4 fw-normal text-white">LUDO</h1>
+
+        </div>
+        </header>
+
+        <main>
+            <div class="row row-cols-1 row-cols-md-3">
+                <div class="col mb-4">
+                    <div class="card one shadow1 text-center ">
+                        <div class="card-body">
+
+                            <h1 class="text">Player 1</h1>
+
+                            <hr>
+
+                            <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+                            <h1 class="text player1Score my-md-5">0</h1>
+
+                        </div>
+                        <div class="card-footer">
+                            <div class="text-center">--------BATTLEGROUND--------</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card col-7 mx-auto text-center ">
+                        <div class="card-body">
+                            <h1 class="player_turn1 ">Player 1</h1>
+                            <h1 class="player_turn2 hidden">Player 2</h1>
+                            <hr>
+                            <div class="diceimg rotate mt-2 mx-auto">
+                                <img src="images/dice-6.png" alt="sixno." width='80' class="dice-six">
+
+                            </div>
+                            <div class="dice_number">
+                                <h1 class="text dicescore">6</h1>
+                            </div>
+                            <div class="btn btn-dark roll_btn w-50 fs-5 mt-2">
+                                Roll
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="text-body-white text-center">--------Match--------</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-sm-4">
+                    <div class="card two text-center mb-sm-4">
+                        <div class="card-body">
+                            <h1 class="text">Player 2</h1>
+                            <hr>
+
+                            <h1 class="text player2Score my-md-5">0</h1>
+
+                        </div>
+                        <div class="card-footer">
+                            <div class="text-center">--------BATTLEGROUND--------</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+        <script src="ludo.js"></script>
+
+</body>
+
+</html>
